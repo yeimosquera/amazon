@@ -26,19 +26,28 @@ Esta prueba está diseñada para evaluar tus habilidades en el desarrollo con La
    - **Descripción**: Debes proporcionar la URL del repositorio donde has subido el proyecto. Además, incluye una breve descripción en el archivo `README.md` sobre cómo ejecutar el proyecto localmente.
    - **Objetivo**: Facilitar la revisión del proyecto proporcionando instrucciones claras sobre cómo clonar, configurar y ejecutar la aplicación en un entorno local.
 
-## Instrucciones para la Entrega
-
-1. Crea una maqueta idéntica al diseño proporcionado.
-2. Implementa la funcionalidad para guardar datos usando AJAX y asegúrate de que los datos se almacenen correctamente en la base de datos.
-3. Desarrolla la aplicación utilizando Laravel, siguiendo las mejores prácticas y convenciones del framework.
-4. Sube el código fuente a un repositorio público y asegúrate de que el acceso sea libre.
-5. Incluye una descripción en el `README.md` del repositorio que contenga:
-   - Cómo clonar el repositorio.
-   - Cómo instalar las dependencias del proyecto.
-   - Cómo configurar el entorno (archivo `.env`).
-   - Cómo ejecutar el servidor de desarrollo de Laravel.
 
 ## Cómo Clonar el Repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/yeimosquera/amazon.git
+```
+## Cómo Instalar las Dependencias del Proyecto
+
+```bash
+composer install
+```
+
+## Cómo Configurar el Entorno
+
+```bash
+cp .env.example .env
+
+```
+
+## Cómo Ejecutar el Servidor de Desarrollo de Laravel
+
+```bash
+php artisan serve
+
+```
