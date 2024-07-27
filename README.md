@@ -46,7 +46,7 @@ composer install
 ## Cómo Configurar el Entorno
 1. Copia el archivo .env.example a .env:
 ```bash
-cp .env.example .env
+copy .env.example .env
 
 ```
 2. Configura las variables de entorno en el archivo .env según tus necesidades, en mi caso tenía instalado Xampp y solo tube que ir a phpadmin y crear la base de datos amazon:
