@@ -33,21 +33,37 @@ Esta prueba está diseñada para evaluar tus habilidades en el desarrollo con La
 git clone https://github.com/yeimosquera/amazon.git
 ```
 ## Cómo Instalar las Dependencias del Proyecto
-
+Navega al directorio del proyecto y ejecuta:
 ```bash
 composer install
 ```
 
 ## Cómo Configurar el Entorno
-
+1. Copia el archivo .env.example a .env:
 ```bash
 cp .env.example .env
 
 ```
+2. Configura las variables de entorno en el archivo .env según tus necesidades, en mi caso tenía instalado Xampp y solo tube que ir a phpadmin y crear la base de datos amazon:
+   
+ ![image](https://github.com/user-attachments/assets/7d1dd8b1-80a8-45ad-ace5-7e405788e05d)
+ 
+ ![image](https://github.com/user-attachments/assets/5b7d627a-6001-442f-be94-559b0676fe17)
+
+  ![image](https://github.com/user-attachments/assets/7a08313f-69d0-4ffc-a5cd-e898391c9103)
+
+
+3. ejecutar las migraciones para que cree todas las tablas, usa el comando:
+   ```bash
+    php artisan make:migration
+   ```
+
 
 ## Cómo Ejecutar el Servidor de Desarrollo de Laravel
 
-```bash
+```bash 
 php artisan serve
-
 ```
+
+![image](https://github.com/user-attachments/assets/83f2b2b8-7fa9-4864-90fc-30901c2319e9)
+
