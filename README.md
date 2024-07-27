@@ -25,6 +25,11 @@ Esta prueba está diseñada para evaluar tus habilidades en el desarrollo con La
 5. **URL del Repositorio y Descripción**
    - **Descripción**: Debes proporcionar la URL del repositorio donde has subido el proyecto. Además, incluye una breve descripción en el archivo `README.md` sobre cómo ejecutar el proyecto localmente.
    - **Objetivo**: Facilitar la revisión del proyecto proporcionando instrucciones claras sobre cómo clonar, configurar y ejecutar la aplicación en un entorno local.
+## Requerimientos locales:
+| Herramienta | Versión |
+| ------ | ------ |
+| Composer |  2.7.7 |
+| Xampp |  8.2 |
 
 
 ## Cómo Clonar el Repositorio
